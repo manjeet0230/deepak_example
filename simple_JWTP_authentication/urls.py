@@ -8,6 +8,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView,TokenRefreshView,
 routers=DefaultRouter()
 routers.register('Studentapi',views.modelviewsets,basename='student')
 # this is my frist change into this repo
+#This is my second change in repo by manjeet singh
 
 urlpatterns = [
     path('admin/', admin.site.urls),
